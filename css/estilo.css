@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+#todo{
+    padding-top: 100px; 
+    width: 70%;
+    height: 500px;
+    display: flex;
+    padding-left: 200px;
+  
+}
+#Lado1{
+    width: 50%;
+    height: 450px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 5px 5px 0px 0px gray;
+}
+#Lado2{     
+    width: 50%;
+    height: 450px;
+    background-color: rgb(0, 103, 122);
+    box-shadow: 5px 5px 0px 0px gray;
+}
+#Lado3{
+    width: 50%;
+    height: 450px;
+    background-color: rgb(3, 66, 73);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 5px 5px 0px 0px gray;
+}
+h5{
+    color: white;
+    font-size: 30px;
+    font-family: "Big Shoulders Display", sans-serif;
+    margin-left: 65px;
+    margin-top: 11px;
+    padding-top: 12px;
+}
+p{
+    padding-left: 70px;
+    padding-right: 80px;
+    color: white;
+    opacity: 80%;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 12px;
+    margin-top: 12px;
+}
+button{
+    color: black;
+    background-color: white;    
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 14px;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-weight: bold;
+}
+#laranja{
+    color: rgba(255, 115, 8, 0.85);
+}
+#cianoClaro{
+    color: rgb(0, 103, 122);
+}
+#cianoEscuro{
+    color: rgb(3, 66, 73);
+}
+#imagem1{
+    background-image: url('/img/icon-sedans.svg');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    width: 70px;
+    height: 50px;
+    padding-left: 55px;
+    padding-top: 29px;
+}
+@media screen and (max-width: 1050px){
+    
+    #todo{
+   display: block;
+    }
+    #Lado1{     
+   
+        background-color: rgb(255, 75, 15);
+    }
+  
+   #Lado2{
+       background-color: rgb(0, 103, 122);
+   }
+   #Lado3{
+    background-color: rgb(5, 75, 103);
+}
+}
